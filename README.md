@@ -1,7 +1,7 @@
 # Botty - Assignment
 
 ## Screenshots
-![App Screenshot](/public/ss.PNG?raw=true "Optional Title")
+![App Screenshot](/chatter/public/ss.PNG?raw=true "Optional Title")
 
   
 ## Dependencies and Installation
