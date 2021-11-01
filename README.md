@@ -4,7 +4,7 @@
 ![App Screenshot](/chatter/public/ss.PNG?raw=true "Optional Title")
 
 ## Note 
-  - Added suggestion messages feature as most bots have similar kind of facility.
+  - Added suggestion messages feature above input box as most bots have similar kind of facility.
   
 ## Dependencies and Installation
 
