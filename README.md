@@ -3,6 +3,8 @@
 ## Screenshots
 ![App Screenshot](/chatter/public/ss.PNG?raw=true "Optional Title")
 
+## Note 
+  - Added suggestion messages feature as most bots have similar kind of facility.
   
 ## Dependencies and Installation
 
