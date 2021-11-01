@@ -50,7 +50,7 @@ function Messages() {
       //setMessages List (append)
       messages.push({ message, user: bot, id: Date.now() })
       setMessages(messages)
-      //set latest message for left bar to display
+      //set latest message for left bar to display, for bot user
       setLatestMessage(bot, message)
       //play receive notification
       playReceive();
@@ -63,7 +63,8 @@ function Messages() {
       scrollDown()
     })
 
-  }, [])
+  }, [messages])
+  //to call everytime the list is updated
 
 
   const sendMessage = useCallback(() => {
@@ -98,13 +99,8 @@ function Messages() {
       <Header />
       <div className="messages__list" id="message-list">
         {messageArray}
-        {/* display typing message while botty is typing */}
         {botWritting ? <TypingMessage /> : null}
-
       </div>
-
-
-
       <Footer message={message} sendMessage={sendMessage} onChangeMessage={onChangeMessage} />
     </div>
   );
