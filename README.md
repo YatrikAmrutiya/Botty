@@ -1,3 +1,47 @@
+# Botty - Assignment
+
+## Screenshots
+![App Screenshot](/public/ss.PNG?raw=true "Optional Title")
+
+  
+## Dependencies and Installation
+
+ - [NodeJS >= v12](https://nodejs.org/en/)
+ 
+
+## Installation
+
+
+1) Clone repo
+
+```bash
+  git clone https://github.com/YatrikAmrutiya/Botty.git
+  cd chatter
+```
+
+
+2) Install Dependencies
+
+```bash
+  npm install
+```
+
+3) Open terminal 2 and Run client
+
+```bash
+  npm start
+```
+    
+## Authors
+
+- [@YatrikAmrutiya](https://github.com/YatrikAmrutiya)
+
+
+
+
+
+
+
 <img src="https://puu.sh/HyrmV/95c458d9d9.png" width=500 />
 
 #
