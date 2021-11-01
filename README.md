@@ -28,7 +28,7 @@
   npm install
 ```
 
-3) Open terminal 2 and Run client
+3) Open terminal and Run the app
 
 ```bash
   npm start
